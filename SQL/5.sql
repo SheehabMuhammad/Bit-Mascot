@@ -1,0 +1,1 @@
+SELECT name FROM employees WHERE id = (SELECT Max(id) FROM employee);
